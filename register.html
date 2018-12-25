@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CoreUI CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/@coreui/coreui/dist/css/coreui.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/coreui-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+    <title>Core UI Sample</title>
+</head>
+
+<body class="app flex-row align-items-center">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card mx-4">
+                    <div class="card-body -4">
+                        <h2>Register</h2>
+                        <p class="text-muted">アカウントの作成</p>
+                        <!-- username -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="icon-user"></i>
+                                </span>
+                            </div>
+                            <input class="form-control" type="text" placeholder="Username">
+                        </div>
+                        <!-- email -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+                            <input class="form-control is-invalid" type="text" placeholder="Email">
+                            <div class="invalid-feedback">
+                                Emailを正しく入力してください。
+                            </div>
+                        </div>
+                        <!-- password -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="icon-lock"></i>
+                                </span>
+                            </div>
+                            <input class="form-control" type="password" placeholder="Password">
+                        </div>
+                        <!-- confirm -->
+                        <div class="input-group mb-4">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <i class="icon-lock"></i>
+                                </span>
+                            </div>
+                            <input class="form-control" type="password" placeholder="Repeat password">
+                        </div>
+                        <button class="btn btn-block btn-success" type="button">アカウント作成</button>
+                    </div>
+
+                    <!-- card footer -->
+                    <div class="card-footer p-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="login.html" class="btn btn-outline-primary btn-block">Login</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, Bootstrap, then CoreUI  -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@coreui/coreui/dist/js/coreui.min.js"></script>
+</body>
+
+</html>
